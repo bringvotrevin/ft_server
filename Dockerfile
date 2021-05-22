@@ -1,6 +1,6 @@
 FROM	debian:buster
 
-LABEL	maintainer="dim@student.42seoul.kr"
+MAINTAINER	dim@student.42seoul.kr
 
 RUN		apt-get update && apt-get -y install \
 		nginx \
